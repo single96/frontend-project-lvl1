@@ -5,6 +5,7 @@ document.write(greetings);
 
 displayGreetings();
 
+//login script
 const loginInfo = () => {
 let askUserName = prompt('What is your name?');
 let askUserPassword = prompt('Enter your password');
@@ -18,10 +19,18 @@ do {
     else {
         alert('Something went wrong');
     }
-    
+
    }
 
    while (askUserName == true || askUserPassword == true);
 } 
 
 loginInfo();
+
+
+//Open a program via button
+
+const openBrainGames = () => {
+
+
+}
