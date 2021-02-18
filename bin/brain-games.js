@@ -12,7 +12,7 @@ let askUserPassword = prompt('Enter your password');
 
 
 do {
-    if(askUserName == 'alex' || askUserPassword == '123') {
+    if(askUserName == 'alex' && askUserPassword == '123') {
         alert('Welcome Home' + ' ' + askUserName);
     }
 
